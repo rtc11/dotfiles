@@ -1,0 +1,17 @@
+{
+	"cmd": "make",
+	"working_dir": "/home/tordly/masteroppgave/report/",
+	"selector": "makefile",
+	"path": "/usr/bin/:/bin/",
+	"variants":
+	[
+		{
+			"name": "clean",
+			"cmd": ["make", "clean"]
+		},
+		{
+			"name": "all",
+			"cmd": ["make", "all"]
+		}	
+	]
+}

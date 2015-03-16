@@ -1,3 +1,6 @@
+# install: ~/.bashrc
+
+# Paths 
 export ANDROID_HOME="/opt/android-sdk"
 export ANDROID_TOOLS="/opt/android-sdk/tools"
 export ANDROID_PLATFORM_TOOLS="/opt/android-sdk/platform-tools"
