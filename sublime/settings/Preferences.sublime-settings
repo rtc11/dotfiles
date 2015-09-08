@@ -1,44 +1,13 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"ignored_words":
-	[
-		"Facebook",
-		"Captology",
-		"Fogg",
-		"gamification",
-		"Gamification",
-		"inline",
-		"neuroscience",
-		"Fogg's",
-		"Transtheoretical",
-		"Precontemplation",
-		"Skeuomorphism",
-		"magnetoencephalography",
-		"cosy",
-		"captology",
-		"gameful",
-		"affordances",
-		"Bandura",
-		"Banura",
-		"Prochaska",
-		"precontemplation",
-		"pre",
-		"Runkeeper",
-		"Scopus",
-		"Confirmability",
-		"online",
-		"Yin's",
-		"Huberman",
-		"Moby's",
-		"Elsevier"
-	],
 	"rulers":
 	[
-		105
-	]
+		100
+	],
+	"soda_folder_icons": true,
+	"theme": "Soda Dark 3.sublime-theme"
 }
