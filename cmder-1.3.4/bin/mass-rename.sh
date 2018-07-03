@@ -1,0 +1,2 @@
+# Rename tags named foo-bar-#.#.# to v#.#.# and push the tag changes
+git tag -l | grep -Po "(\d+\.)+\d+" | while read t; do new="$1-$t"; old="v$t"; git tag $new $old; git push --tags ; git tag -d $old; git push origin :refs/tags/$old ; done
