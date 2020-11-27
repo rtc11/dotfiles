@@ -1,3 +1,27 @@
+############################## UPDATE 1
+
+export GCLOUD_BIN=/Users/robintordly/Library/gcloud/google-cloud-sdk/bin
+export BIN=$HOME/bin:/usr/local/bin
+export PATH=$BIN:$GCLOUD_BIN:$PATH
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH="/usr/local/opt/python/libexec/bin:$PATH":
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/robintordly/.oh-my-zsh"
+
+jdk() {
+    version=$1
+    export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+    java -version
+}
+
+# ALIAS
+alias k='kubectl'
+alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`" .'
+alias chrome="open -a 'Google Chrome'"
+alias project='cd ~/projects'
+
+############################## OLD
 # JAVA
 alias java13='export JAVA_HOME=$JAVA_13_HOME'
 alias java11='export JAVA_HOME=$JAVA_11_HOME'
