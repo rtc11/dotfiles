@@ -1,1 +1,0 @@
-mvn clean install -DskipTests aura:deploy -Dusername=admin -Dpassword=admin -Denv=$1

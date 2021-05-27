@@ -1,9 +1,0 @@
-#!/bin/sh
-
-#########
-# This script is on the remote server
-#########
-
-sed -i '/#JAVA_OPTS="$JAVA_OPTS -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n/c\JAVA_OPTS="$JAVA_OPTS -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n"' /app/drek/configuration/standalone.conf
-echo -e 'Remote debugging enabled\t\t\t\t   [ \e[32m OK \e[0m ]'
-service jboss-drek restart
