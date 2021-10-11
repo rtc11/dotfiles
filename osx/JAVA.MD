@@ -1,5 +1,13 @@
 ## Install
 ```
+$ brew install --cask temurin
+$ brew install --cask temurin8
+...
+```
+
+⚠️ AdoptOpenJDK deprecated
+```
+AdoptOpenJDK/openjdk is deprecated
 $ brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk14
 brew cask install adoptopenjdk11
