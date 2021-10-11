@@ -1,6 +1,8 @@
 ## Install
 ```
 $ brew install --cask temurin
+
+$ brew tap homebrew/cask-versions
 $ brew install --cask temurin8
 ...
 ```
