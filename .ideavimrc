@@ -1,0 +1,13 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Common settings -------------------------
+set relativenumber 
+set number
+set showmode
+set incsearch
+
+""" Mappings --------------------------------
+map <S-h> <Action>(EditorLineStart) 
+map <S-l> <Action>(EditorLineEnd) 
+
