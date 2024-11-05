@@ -1,6 +1,3 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/rtc11/nvim
-[submodule "kitty"]
-	path = kitty
-	url = https://github.com/rtc11/kitty
