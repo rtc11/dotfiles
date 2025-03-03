@@ -1,7 +1,7 @@
 # Infinite bash history (ctrl+r)
 export HISTFILESIZE=
 export HISTSIZE=
-export HISTTIMEFORMAT="[%F %T] "
+# export HISTTIMEFORMAT="[%F %T] "
 export HISTFILE=~/.bash_eternal_history
 PROMPT_COMMAND="history -a; $PROMTP_COMMAND"
 
@@ -64,6 +64,8 @@ unset EZA_COLORS
 # alias jo='$HOME/code/c3/c3junitout/main $@'
 alias vim=nvim
 # alias test='sh test.sh "$@"'
+alias rg="rg --hyperlink-format=kitty"
+alias hg="kitten hyperlinked-grep" # open result in nvim with ctrl+shift+p+y
 alias ideaformat='sh "/Users/robin/Applications/IntelliJ IDEA Ultimate.app/Contents/bin/format.sh" "$@"'
 alias ideahello='sh "/Users/robin/Applications/IntelliJ IDEA Ultimate.app/Contents/bin/hello.sh" "$@"'
 alias ll='eza -la --no-permissions --no-user -s type -F --git --icons'
